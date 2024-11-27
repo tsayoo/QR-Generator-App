@@ -13,7 +13,10 @@ A Mobile-based QR Scanner and Generator App.
 
 ## Tech Stack
 
-**Front-End:** Dart, Flutter
+**Front-End:** 
+
+- Dart v.3.2.4 (stable)
+- Flutter v.3.24.5 (stable channel)
 
 **Dependencies:** 
 
