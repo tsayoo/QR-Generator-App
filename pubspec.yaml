@@ -37,6 +37,21 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  # library utk proses scanning qr code
+  mobile_scanner: ^6.0.2
+  # library utk ngatur app permision
+  permission_handler: ^11.3.1
+  # library utk generate code dari data mentah ke qr code
+  pretty_qr_code: ^3.3.0
+  share_plus: ^10.1.2
+  screenshot: ^3.0.0
+  path_provider: ^2.1.5
+  # 1. kita hrus handling permission
+  # -- set up android
+  # cari android manifest.xml /app - src - main - AndroidManifest.xml
+  # masukin <uses-permission: android:name="android.permission.(yang mau dimintain)"/>
+  # 
+
 
 dev_dependencies:
   flutter_test:
