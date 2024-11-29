@@ -1,30 +1,29 @@
+# QR Scanner & Generator App
 
-## QR Scanner App
+This Flutter app allows users to scan QR codes and generate QR codes. The app has two main functionalities:
 
-A Mobile-based QR Scanner and Generator App.
-
-
+- **Scanner**: Uses the camera to scan QR codes.
+- **Generator**: Generates QR codes based on the inputted text.
 
 ## Features
 
-- QR Scanner Page
-- QR Generator Page
+### Home Screen
 
+The home screen has two buttons:
+1. **Go to Scanner**: Navigates to the QR Scanner screen.
+2. **Go to QR Generator**: Navigates to the QR Generator screen.
 
-## Tech Stack
+### QR Scanner Screen
 
-**Front-End:** 
+This screen uses the camera to scan QR codes. When a QR code is detected, the app displays its content and gives an option to switch to the QR generator screen.
 
-- Dart v.3.2.4 (stable)
-- Flutter v.3.24.5 (stable channel)
+### QR Generator Screen
 
-**Dependencies:** 
+On this screen, the user can enter text, and the app will generate a corresponding QR code. The user can then save or share the QR code.
 
-- mobile_scanner
-- pretty_qr_code
+## Libraries Used
 
-
-## Usage
-
-Needs user's permission to allow their camera.
-
+- **Flutter**: The framework used for app development.
+- **MobileScanner**: To scan QR codes.
+- **PrettyQR**: For generating QR codes.
+- **Flutter Material Design**: To create the UI components.
